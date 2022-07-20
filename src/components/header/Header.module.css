@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ff2d01;
+  padding: 14px 80px;
+}
+
+.header > small {
+  color: #fff;
+  margin-right: 40px;
+}

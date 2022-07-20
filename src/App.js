@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Mapa from "./components/mapa/Mapa";
+import Cogumelos from "./components/sectionCogumelos/Cogumelos";
+import Texto from "./components/sectionTexto/Texto";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Cogumelos />
+      <Texto
+        backgroundColor={{ backgroundColor: "#4c4c4c" }}
+        color={{ color: "#fff" }}
+      />
+      <Mapa />
+      <Footer />
+    </>
   );
 }
 

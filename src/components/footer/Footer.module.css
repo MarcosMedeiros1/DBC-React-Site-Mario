@@ -1,0 +1,16 @@
+.footer {
+  background-color: #ff2d01;
+  padding: 16px 80px;
+  margin-top: 40px;
+  display: grid;
+  gap: 24px;
+}
+
+.footer > nav > ul {
+  display: grid;
+  gap: 10px;
+}
+
+.endereco {
+  color: #fff;
+}

@@ -1,0 +1,18 @@
+.card {
+  display: grid;
+  justify-items: center;
+  padding: 10px;
+  gap: 16px;
+  border: 1px solid #999;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card > img {
+  width: 100px;
+  height: 100px;
+}
+
+.card:hover {
+  background-color: #f5f5f5;
+}
